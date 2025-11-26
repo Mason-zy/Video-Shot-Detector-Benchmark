@@ -1,0 +1,28 @@
+# 镜头分割算法对比工具依赖
+# Shot Boundary Detection Comparison Tool Dependencies
+
+# 核心依赖
+opencv-python>=4.5.0
+numpy>=1.19.0
+
+# PySceneDetect
+scenedetect>=0.6.0
+
+# TransNet V2 (深度学习)
+tensorflow>=2.8.0
+# 或者使用 torch 版本 (根据实际模型实现选择)
+# torch>=1.10.0
+# torchvision>=0.11.0
+
+# 其他工具
+tqdm>=4.62.0
+pathlib2>=2.3.6; python_version < '3.4'
+
+# 可选依赖 - 用于更好的图像处理
+Pillow>=8.3.0
+scikit-image>=0.18.0
+
+# 开发依赖 (可选)
+pytest>=6.2.0
+black>=21.0.0
+flake8>=3.9.0
