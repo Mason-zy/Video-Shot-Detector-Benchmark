@@ -125,7 +125,7 @@ def _run_inference(self, processed_frames: np.ndarray) -> np.ndarray:
 
 ```bash
 # 只使用 TransNet V2
-python src/main.py your_video.mp4 -a transnet
+python src/main.py test002.mp4 -a transnet
 
 # 指定模型目录
 python src/main.py your_video.mp4 -a transnet --transnet-model-dir ./my_models/transnetv2
